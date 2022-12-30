@@ -1,0 +1,40 @@
+{
+  "name": "antdv-vue3",
+  "version": "0.0.0-beta.1",
+  "description": "this is antd-vue3",
+  "main": "index.js",
+  "scripts": {},
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@css-render/plugin-bem": "^0.15.12",
+    "@vueuse/core": "^9.9.0",
+    "css-render": "^0.15.12",
+    "dayjs": "^1.11.7",
+    "lodash": "^4.17.21",
+    "lodash-es": "^4.17.21",
+    "vue": "^3.2.45"
+  },
+  "devDependencies": {
+    "@mistjs/eslint-config-vue": "^0.0.3",
+    "@mistjs/tsconfig-vue": "^0.0.3",
+    "@types/lodash-es": "^4.17.6",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vitejs/plugin-vue-jsx": "^3.0.0",
+    "eslint": "^8.30.0",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.3",
+    "vitepress": "1.0.0-alpha.33"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search"
+      ]
+    }
+  }
+}
