@@ -21,6 +21,7 @@
   },
   "devDependencies": {
     "@mistjs/eslint-config-vue": "^0.0.3",
+    "@mistjs/tsconfig": "^1.0.0",
     "@mistjs/tsconfig-vue": "^0.0.3",
     "@types/lodash-es": "^4.17.6",
     "@vitejs/plugin-vue": "^4.0.0",

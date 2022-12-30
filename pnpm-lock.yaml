@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@css-render/plugin-bem': ^0.15.12
   '@mistjs/eslint-config-vue': ^0.0.3
+  '@mistjs/tsconfig': ^1.0.0
   '@mistjs/tsconfig-vue': ^0.0.3
   '@types/lodash-es': ^4.17.6
   '@vitejs/plugin-vue': ^4.0.0
@@ -29,6 +30,7 @@ dependencies:
 
 devDependencies:
   '@mistjs/eslint-config-vue': 0.0.3_lzzuuodtsqwxnvqeq4g4likcqa
+  '@mistjs/tsconfig': 1.0.0
   '@mistjs/tsconfig-vue': 0.0.3
   '@types/lodash-es': 4.17.6
   '@vitejs/plugin-vue': 4.0.0_vite@4.0.3+vue@3.2.45
@@ -51,6 +53,9 @@ packages:
     peerDependencies:
       '@algolia/client-search': '>= 4.9.1 < 6'
       algoliasearch: '>= 4.9.1 < 6'
+    peerDependenciesMeta:
+      '@algolia/client-search':
+        optional: true
     dependencies:
       '@algolia/autocomplete-shared': 1.7.2
       algoliasearch: 4.14.3
