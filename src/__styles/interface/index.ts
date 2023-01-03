@@ -4,6 +4,7 @@ import type { AliasToken } from './alias'
 export type OverrideToken = {
   [key in keyof ComponentTokenMap]: Partial<ComponentTokenMap[key]> & Partial<AliasToken>;
 }
+export type DerivativeFunc<A, B> = (a: A, b: B) => B
 
 /** Final token which contains the components level override */
 export type GlobalToken = AliasToken & ComponentTokenMap
