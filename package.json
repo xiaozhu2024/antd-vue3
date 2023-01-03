@@ -4,7 +4,10 @@
   "description": "this is antd-vue3",
   "main": "index.js",
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "dev:docs": "vitepress dev docs",
+    "build:docs": "vitepress build docs",
+    "preview:docs": "vitepress preview docs"
   },
   "publishConfig": {
     "access": "public"
@@ -13,7 +16,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@ant-design/colors": "^6.0.0",
     "@css-render/plugin-bem": "^0.15.12",
+    "@ctrl/tinycolor": "^3.5.0",
     "@vueuse/core": "^9.9.0",
     "css-render": "^0.15.12",
     "dayjs": "^1.11.7",

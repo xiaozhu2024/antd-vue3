@@ -1,7 +1,9 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@ant-design/colors': ^6.0.0
   '@css-render/plugin-bem': ^0.15.12
+  '@ctrl/tinycolor': ^3.5.0
   '@mistjs/eslint-config-vue': ^0.0.3
   '@mistjs/tsconfig': ^1.0.0
   '@mistjs/tsconfig-vue': ^0.0.3
@@ -23,7 +25,9 @@ specifiers:
   vue: ^3.2.45
 
 dependencies:
+  '@ant-design/colors': 6.0.0
   '@css-render/plugin-bem': 0.15.12_css-render@0.15.12
+  '@ctrl/tinycolor': 3.5.0
   '@vueuse/core': 9.9.0_vue@3.2.45
   css-render: 0.15.12
   dayjs: 1.11.7
@@ -168,6 +172,12 @@ packages:
       '@jridgewell/gen-mapping': 0.1.1
       '@jridgewell/trace-mapping': 0.3.17
     dev: true
+
+  /@ant-design/colors/6.0.0:
+    resolution: {integrity: sha512-qAZRvPzfdWHtfameEGP2Qvuf838NhergR35o+EuVyB5XvSA98xod5r4utvi4TJ3ywmevm290g9nsCG5MryrdWQ==}
+    dependencies:
+      '@ctrl/tinycolor': 3.5.0
+    dev: false
 
   /@babel/code-frame/7.18.6:
     resolution: {integrity: sha512-TDCmlK5eOvH+eH7cdAFlNXeVJqWIQ7gW9tY1GJIpUtFb6CmjVyq2VM3u71bOyR8CRihcCgMUYoDNyLXao3+70Q==}
@@ -457,6 +467,11 @@ packages:
       css-render: ~0.15.12
     dependencies:
       css-render: 0.15.12
+    dev: false
+
+  /@ctrl/tinycolor/3.5.0:
+    resolution: {integrity: sha512-tlJpwF40DEQcfR/QF+wNMVyGMaO9FQp6Z1Wahj4Gk3CJQYHwA2xVG7iKDFdW6zuxZY9XWOpGcfNCTsX4McOsOg==}
+    engines: {node: '>=10'}
     dev: false
 
   /@docsearch/css/3.3.1:
